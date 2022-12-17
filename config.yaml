@@ -1,8 +1,9 @@
-baseurl: https://example.com
-languageCode: en-us
+baseurl: https://qjwhz.top
+languageCode: zh-cn
+defaultContentLanguage : en
 theme: stack
 paginate: 5
-title: Example Site
+title: 平平无奇的博客
 
 # Change it to your Disqus shortname before using
 disqusShortname: stack
@@ -196,7 +197,7 @@ menu:
 
         - identifier: twitter
           name: Twitter
-          url: https://twitter.com
+          url: https://baidu.com
           params:
               icon: brand-twitter
 
