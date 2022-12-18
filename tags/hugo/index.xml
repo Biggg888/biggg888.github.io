@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on 平平无奇的博客</title>
-    <link>https://qjwhz.top/tags/hugo/</link>
+    <link>https://www.qjwhz.top/tags/hugo/</link>
     <description>Recent content in Hugo on 平平无奇的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 18 Dec 2022 17:42:20 +0800</lastBuildDate><atom:link href="https://qjwhz.top/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Dec 2022 17:42:20 +0800</lastBuildDate><atom:link href="https://www.qjwhz.top/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>https://qjwhz.top/2022/test-chinese/</link>
+      <link>https://www.qjwhz.top/2022/test-chinese/</link>
       <pubDate>Sun, 18 Dec 2022 17:42:20 +0800</pubDate>
       
-      <guid>https://qjwhz.top/2022/test-chinese/</guid>
+      <guid>https://www.qjwhz.top/2022/test-chinese/</guid>
       <description>短代码测试 三月，因久旱不雨，苏轼赴郿，祈雨于太白山之上清宫。数日后，虽有微雨，父老以为不足，于是，再陪宋太守亲往祭祷，回程路上，便见道中有云</description>
     </item>
     
     <item>
       <title>Hugo | Hugo-stack-theme主题魔改版</title>
-      <link>https://qjwhz.top/2022/stack-theme-mod/</link>
+      <link>https://www.qjwhz.top/2022/stack-theme-mod/</link>
       <pubDate>Sun, 13 Feb 2022 03:02:52 +0800</pubDate>
       
-      <guid>https://qjwhz.top/2022/stack-theme-mod/</guid>
+      <guid>https://www.qjwhz.top/2022/stack-theme-mod/</guid>
       <description>Github仓库地址：Mantyke/stack-theme-mod 本主题由CaiJimmy制作并发布，这个仓库是由Mantyke修改的魔改</description>
     </item>
     
