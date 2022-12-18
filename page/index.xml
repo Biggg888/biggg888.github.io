@@ -22,7 +22,7 @@
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://qjwhz.top/links/</guid>
-      <description>这个标题默认隐藏了标题与页尾，推荐用以下格式来交换友情链接。 友链头像放在/assets/link-img，友链数据放在/data/links</description>
+      <description>.article-header { display: none; } .article-footer { display: none; } 这个标题默认隐藏了标题与页尾，推荐用以下格式来交换友情链接。 友链头像放在/assets/link-img，友链数据放在/</description>
     </item>
     
     <item>
@@ -33,7 +33,7 @@
       <guid>https://qjwhz.top/about/</guid>
       <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 Hugo makes use of a variety of open source projects including:
-https://github.com/yuin/goldmark https://github.</description>
+ https://github.</description>
     </item>
     
     <item>
