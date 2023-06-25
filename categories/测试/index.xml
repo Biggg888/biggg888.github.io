@@ -6,7 +6,16 @@
     <description>Recent content in 测试 on 平平无奇枯燥无味的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Feb 2023 20:31:50 +0800</lastBuildDate><atom:link href="https://www.qjwhz.top/categories/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jun 2023 23:31:50 +0800</lastBuildDate><atom:link href="https://www.qjwhz.top/categories/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python 操作 dbf 文件 </title>
+      <link>https://www.qjwhz.top/2023/test-chinese/</link>
+      <pubDate>Sun, 25 Jun 2023 23:31:50 +0800</pubDate>
+      
+      <guid>https://www.qjwhz.top/2023/test-chinese/</guid>
+      <description>Python操作dbf文件 pip install dbf pip install dbf &#39;&#39;&#39; 用于读取/写入 dBase、FoxPro 和 Visual FoxPro .dbf 文件（包括备忘录）的纯 python 包 &#39;&#39;&#39; 环境 Python 3.9.5 dbf 0.99.2 如何读取、修改</description>
+    </item>
+    
     <item>
       <title>Howtowrite</title>
       <link>https://www.qjwhz.top/2023/howtowrite/</link>

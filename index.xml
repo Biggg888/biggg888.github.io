@@ -6,7 +6,64 @@
         <description>Recent content on 平平无奇枯燥无味的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 01 Feb 2023 20:31:50 +0800</lastBuildDate><atom:link href="https://www.qjwhz.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 25 Jun 2023 23:31:50 +0800</lastBuildDate><atom:link href="https://www.qjwhz.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Python 操作 dbf 文件 </title>
+        <link>https://www.qjwhz.top/2023/test-chinese/</link>
+        <pubDate>Sun, 25 Jun 2023 23:31:50 +0800</pubDate>
+        
+        <guid>https://www.qjwhz.top/2023/test-chinese/</guid>
+        <description>&lt;h1 id=&#34;python操作dbf文件&#34;&gt;Python操作dbf文件&lt;/h1&gt;
+&lt;h2 id=&#34;pip-install-dbf&#34;&gt;pip install dbf&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pip install dbf
+&#39;&#39;&#39;
+用于读取/写入 dBase、FoxPro 和 Visual FoxPro .dbf 文件（包括备忘录）的纯 python 包
+
+&#39;&#39;&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;环境&#34;&gt;环境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Python 3.9.5&lt;/li&gt;
+&lt;li&gt;dbf 0.99.2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;如何读取修改保存dbf文件&#34;&gt;如何读取、修改、保存dbf文件&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import dbf
+
+# 读取dbf文件, with 语句会自动关闭文件
+with dbf.Table(&#39;test.dbf&#39;) as table:
+    for record in table:
+        print(record)   # 打印每一行
+    
+# 修改dbf文件
+with dbf.Table(&#39;test.dbf&#39;) as table:
+    for r in dbf.Process(table)
+        r[&#39;name&#39;] = &#39;new name&#39;
+        r[3] = 200
+
+# with 语句会自动保存文件
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;中文支持&#34;&gt;中文支持&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import dbf
+
+# 简体中文
+dbf.Table(filename, codepage=&#39;cp936&#39;)
+
+# 繁体中文
+dbf.Table(filename, codepage=&#39;cp950&#39;)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;引用&#34;&gt;引用&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.github.com/ethanfurman/dbf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.github.com/ethanfurman/dbf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/users/208880/ethan-furman?tab=answers&amp;amp;sort=votes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;stackoverflow.com/questions/209840/convert-dbfs-to-csvs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pypi.org/project/dbf/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://pypi.org/project/dbf/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
         <title>Howtowrite</title>
         <link>https://www.qjwhz.top/2023/howtowrite/</link>
         <pubDate>Wed, 01 Feb 2023 20:31:50 +0800</pubDate>
